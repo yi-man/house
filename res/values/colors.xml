@@ -1,0 +1,18 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="white">#ffffff</color>
+    <color name="light_white">#AAAAAA</color>
+    <color name="light_grey">#ebebeb</color>
+    <color name="tab_unselected">#82858b</color>
+    
+    <color name="red">#D5000E</color>
+    <color name="dark_red">#b5030e</color>
+    
+    <color name="normal">#333</color>
+    
+    <color name="listitem_transparent">#00000000</color>
+    
+    
+
+</resources>

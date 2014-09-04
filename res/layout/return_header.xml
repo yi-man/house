@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/return_header"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/red" >
+  	
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/img_desc"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/red_pressed"
+        android:src="@drawable/backarrow" />
+    
+    <TextView
+        android:id="@+id/register_tips"
+        style="@style/main_head_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="御龙湾"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+   	
+</RelativeLayout>

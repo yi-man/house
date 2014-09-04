@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">天怡房产</string>
+    <string name="menu_settings">Settings</string>
+    
+    <string name="img_desc">图片</string>
+    
+    <string-array name="house_name">
+        <item >御龙湾</item>
+        <item >锦绣熙城</item>
+        <item >领秀花都</item>
+    </string-array>
+    <string-array name="house_address">
+        <item >江苏省丹阳市新民中路61号</item>
+        <item >江苏省丹阳市新民中路61号</item>
+        <item >江苏省丹阳市新民中路61号</item>
+    </string-array>
+    <string-array name="house_phone">
+        <item >051186732888</item>
+        <item >051186559555</item>
+        <item >051186571398</item>
+    </string-array>
+
+</resources>

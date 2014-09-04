@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_relativelayout_header"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:background="@color/red" >
+  	
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/img_desc"        
+        android:src="@drawable/icon" />
+    
+    <TextView
+        android:id="@+id/title"   
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="天怡房产" 
+        android:layout_toRightOf="@id/icon"/>
+    
+    
+   	<TextView 
+   	    android:id="@+id/logo"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_alignParentRight="true"
+   	    android:layout_alignParentBottom="true"
+   	    android:layout_marginRight="10dp"
+   	    android:layout_marginBottom="5dp"
+   	    android:textSize="12sp"
+   	    android:text="天佑百姓，怡然生活"
+   	    android:textColor="@color/white"/>
+</RelativeLayout>

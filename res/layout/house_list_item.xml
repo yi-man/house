@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp" 
+    android:orientation="horizontal"
+    android:background="@color/black_overlay">
+    
+   <ImageView 
+       android:id="@+id/preview"
+       android:layout_width="120dp"
+       android:layout_height="80dp"
+       android:padding="4dp"
+       android:layout_margin="6dp"
+       android:background="@color/white"
+       android:scaleType="centerCrop"
+       android:src="@drawable/icon"/>
+   
+   <LinearLayout 
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+       
+       <TextView
+           android:id="@+id/name"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="御龙湾"
+           android:textColor="@color/white"
+           android:textSize="18dp"
+           android:layout_marginTop="15dp" />
+       
+       <TextView
+           android:id="@+id/address"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="江苏省丹阳市新民中路61号"
+           android:textColor="@color/white"
+           android:textSize="12dp" 
+           android:lineSpacingExtra="5dp"
+           android:layout_marginTop="15dp"/>
+       
+       <TextView
+           android:id="@+id/phone"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="051186732888"
+           android:textColor="@color/white"
+           android:textSize="12dp" />
+
+   </LinearLayout>
+    
+
+</LinearLayout>
